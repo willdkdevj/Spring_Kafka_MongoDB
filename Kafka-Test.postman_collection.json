@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "16bb04ca-a4ae-490b-b56c-a879b51ac56d",
+		"name": "Kafka-Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26406444"
+	},
+	"item": [
+		{
+			"name": "Requisição Pedido",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"client\" : \"John Smith\",\r\n    \"product\" : \"Smartwatch apple a2352-44mm\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/order/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"order",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Consultar ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://sca-online-698321314.us-east-1.elb.amazonaws.com/rfb/cpf.txt?access_key=zG6lEG7THH3HlRaXrhG7&cpf=00012345678901&birthday=01082001&timeout=00004&period=00001",
+					"protocol": "http",
+					"host": [
+						"sca-online-698321314",
+						"us-east-1",
+						"elb",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"rfb",
+						"cpf.txt"
+					],
+					"query": [
+						{
+							"key": "access_key",
+							"value": "zG6lEG7THH3HlRaXrhG7"
+						},
+						{
+							"key": "cpf",
+							"value": "00012345678901"
+						},
+						{
+							"key": "birthday",
+							"value": "01082001"
+						},
+						{
+							"key": "timeout",
+							"value": "00004"
+						},
+						{
+							"key": "period",
+							"value": "00001"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Pedidos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/order/line",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"order",
+						"line"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/order/list/AGUARDANDO_ENVIO",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"order",
+						"list",
+						"AGUARDANDO_ENVIO"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
