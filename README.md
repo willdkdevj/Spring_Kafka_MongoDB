@@ -1,9 +1,11 @@
 # Sistema de Pedidos - Spring Kafka com MongoDB
-<p align="left">
-<a href="https://refactoring.guru/design-patterns/java" title="Go to Bash homepage"><img src="https://img.shields.io/badge/Prompt-Project-blue?logo=gnu-bash&amp;logoColor=white" alt="Made with Bash"></a></p>
+[![Spring Badge](https://img.shields.io/badge/-Spring-greenlight?style=flat-square&logo=Spring&logoColor=white&link=https://maven.apache.org/)](https://spring.io/)
+[![Maven Badge](https://img.shields.io/badge/-Maven-black?style=flat-square&logo=Apache-Maven&logoColor=white&link=https://maven.apache.org/)](https://maven.apache.org/)
+[![Kafka Badge](https://img.shields.io/badge/-Kafka-blue?style=flat-square&logo=Apache-KafkalogoColor=white&link=https://kafka.apache.org/documentation/)](https://kafka.apache.org/documentation/)
+[![MongoDB Badge](https://img.shields.io/badge/-MongoDB-green?style=flat-square&logo=MongoDB&logoColor=white&link=https://www.mongodb.com/pt-br/docs/)](https://www.mongodb.com/pt-br/docs/)
 -------
 
-Este é um sistema de processamento de pedidos assíncrono dividido em módulos para receber e processar pedidos utilizando as tecnologias Java 17, Spring Boot 3, Maven 3.8, Kafka e MongoDB.
+Este é um sistema de processamento de pedidos assíncrono dividido em módulos para receber e processar pedidos utilizando arquitetura hexagonal e as tecnologias Java 17, Spring Boot 3, Maven 3.8, Kafka e MongoDB.
 
 ## 💻 Tecnologias utilizadas no projeto
 
@@ -56,9 +58,9 @@ Para reportar problemas ou sugestões, entre em contato pelo [e-mail](williamdkd
 ## :man_technologist: Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes. :octocat:
-Contato:
 
-    [![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/willdkdevj)](https://github.com/willdkdevj)
+Contato:
+[![Github Badge](https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/willdkdevj)](https://github.com/willdkdevj)
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/william-derek-dias/)](https://www.linkedin.com/in/william-derek-dias/)
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:williamdkdevops@gmail.com)](mailto:williamdkdevops@gmail.com)
  
